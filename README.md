@@ -28,3 +28,8 @@ Responsible for managing the drones, where each drone is a separate thread. This
 - <b>armazem.c:</b> (meaning "warehouse" in portuguese)
 Uses the message queue to communicate with the drones. Writes stats to the shared memory, to be read by the simulation manager.
 <p>The various synchronization mechanisms are used throughout the project to manage access to the shared resources, i.e shared memory, message queue, drones, etc.</p>
+
+## Introduction to Networking
+
+Deals with sockets in C.
+<p>The server uses threads and some synchronization mechanisms (mutexes and conditinal variables) to handle multiple requests.</p>
