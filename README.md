@@ -31,5 +31,11 @@ Uses the message queue to communicate with the drones. Writes stats to the share
 
 ## Introduction to Networking
 
-Deals with sockets in C.
-<p>The server uses threads and some synchronization mechanisms (mutexes and conditinal variables) to handle multiple requests.</p>
+This project focuses on implementing networking functionalities using C sockets.
+<p>There is a client app and a server app. The server can handle multiple clients simultaneously</p>
+
+### Key Features
+
+- <b>Client-Server Communication:</b> The client app interacts with the server application through established sockets, facilitating data exchange.
+- <b>Multithreaded Server:</b> Utilizes threads to handle concurrent requests, enhancing the server's efficiency in managing multiple incoming connections.
+- <b>Synchronization Mechanisms:</b> Implements mutexes and conditional variables to maintain synchronization and ensure data integrity in a multi-request environment
