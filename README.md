@@ -2,11 +2,11 @@
 
 These projects were completed during my time at University (2017 to 2020).
 
-## Projects
+# Projects
 
-### Operating Systems
+## Operating Systems
 
-<p><b>Utilizes various low-level mechanisms:</b></p>
+### Utilizes various low-level mechanisms:
 - `fork()`
 - threads
 - mutexes
