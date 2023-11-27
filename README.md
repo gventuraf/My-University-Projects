@@ -47,3 +47,12 @@ This project focuses on implementing networking functionalities using C sockets.
 2. <b>Browser Flags:</b> Launch Chrome with the following flags
     - ´--allow-file-access-from-files´
     - ´--autoplay-policy=no-user-gesture-required´
+
+## [OpenGL Introduction Project](OpenGL-Introduction)
+
+This project serves as an initiation into OpenGL.
+
+### Key Features
+- <b>Phong Reflection Model (ilumination).</b>
+- <b>Shaders</b>
+- <b>Materials and Textures.</b>

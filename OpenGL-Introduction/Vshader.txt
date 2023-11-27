@@ -1,0 +1,13 @@
+uniform sampler2D tex;
+varying vec4 col;
+varying vec3 P;
+varying vec3 N;
+
+void main(void)
+{
+    gl_TexCoord[0] = gl_MultiTexCoord0;
+    P = gl_ModelViewMatrix * gl_Vertex; // vertex position
+    N = (gl_NormalMatrix * glNormal); // normal after transformations
+    col = gl_Color;
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+}
