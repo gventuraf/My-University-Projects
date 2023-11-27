@@ -39,7 +39,7 @@ This project focuses on implementing networking functionalities using C sockets.
 - <b>Multithreaded Server:</b> Utilizes threads to handle concurrent requests, enhancing the server's efficiency in managing multiple incoming connections.
 - <b>Synchronization Mechanisms:</b> Implements mutexes and conditional variables to maintain synchronization and ensure data integrity in a multi-request environment.
 
-## [A Simple Game in JavaScript]()
+## [A Simple Game in JavaScript](Game-JavaScript/)
 
 ### How to Play
 
