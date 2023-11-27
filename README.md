@@ -48,7 +48,7 @@ This project focuses on implementing networking functionalities using C sockets.
     - ´--allow-file-access-from-files´
     - ´--autoplay-policy=no-user-gesture-required´
 
-## [OpenGL Introduction Project](OpenGL-Introduction)
+## [OpenGL Introduction](OpenGL-Introduction)
 
 This project serves as an initiation into OpenGL.
 
