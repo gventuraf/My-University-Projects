@@ -1,0 +1,32 @@
+body {
+  background-image: url("../resources/fundoGod.png");
+  background-size: 700px, 394px;
+  /*
+  background-color: lightblue;
+  */
+}
+
+#backButton {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  background-image: url(../resources/backFinalBlue.png);
+  background-color: transparent;
+  border: none;
+  width: 90px;
+  height: 70px;
+  outline: none;
+}
+
+#backButton:hover {
+  cursor:pointer;
+}
+
+
+img {
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  width: 500px;
+  height: 190px;
+}

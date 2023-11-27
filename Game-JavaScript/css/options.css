@@ -1,0 +1,68 @@
+body {
+  background-image: url("../resources/fundoGod.png");
+  background-size: 700px, 394px;
+  /*
+  background-color: lightblue;
+  */
+}
+
+#backButton {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  background-image: url(../resources/backFinalBlue.png);
+  background-color: transparent;
+  border: none;
+  width: 90px;
+  height: 70px;
+  outline: none;
+}
+
+#optionsImage {
+  position: absolute;
+  top: 135px;
+  left: 260px;
+  width:180px;
+  height: 55px;
+}
+
+nav {
+  position: absolute;
+  top: 280px;
+  left: 240px;
+  float: left;
+}
+
+#musicImage {
+  width: 105px;
+  height: 34px;
+  margin-right: 4px;
+  background-color: transparent;
+}
+
+.group {
+  width: 34px;
+  height: 34px;
+  margin-right: 4px;
+  border: none;
+  outline: none;
+}
+
+#musicMinus {
+  background-image: url(../resources/minus.svg);
+  background-color: transparent;
+}
+
+#musicPlus {
+  background-image: url(../resources/plus.svg);
+  background-color: transparent;
+}
+
+#musicOnOff {
+  background-image: url(../resources/musicOn.svg);
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}

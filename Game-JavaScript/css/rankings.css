@@ -1,0 +1,60 @@
+body {
+  background-image: url("../resources/fundoGod.png");
+  background-size: 700px, 394px;
+  /*
+  background-color: lightblue;
+  */
+}
+
+button {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  background-image: url(../resources/backFinalBlue.png);
+  background-color: transparent;
+  border: none;
+  width: 90px;
+  height: 70px;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+table {
+  position: absolute;
+  left: 30px;
+  top: 150px;
+  width: 400px;
+  height: 190px;
+  font-family: fantasy;
+  font-size: 18px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: grey;
+}
+
+td, th {
+  text-align: center;
+}
+
+/* first scored gets color 'gold' */
+tr:nth-child(2) {
+  background-color: gold;
+}
+/* second scored gets color 'silver' */
+tr:nth-child(3) {
+  background-color: silver;
+}
+
+/*
+
+Collor the remaining rows
+
+tr {
+  background-color: tomato;
+}
+*/

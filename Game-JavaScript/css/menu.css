@@ -1,0 +1,121 @@
+/*h1 {
+  /*background-color: lightblue;*
+  display: block;
+  text-align: center;
+  margin-top: 0.85em;
+  color: white;
+}*/
+
+body {
+  background-image: url("../resources/fundoGod.png");
+  background-size: 700px, 394px;
+  /*
+  background-color: lightblue;
+  */
+}
+
+
+#navInternal {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+
+#optionsButton{
+  background-image: url(../resources/optionsFinalB.png);
+}
+
+#creditsButton{
+  background-image: url(../resources/creditsFinalB.png);
+}
+
+#tutorialButton{
+  background-image: url(../resources/tutorialFinalB.png);
+}
+
+#rankingsButton {
+  background-image: url(../resources/rankingFinalB.png);
+}
+
+.group{
+  display: block;
+  background-color: transparent;
+  border: none;
+  width: 105px;
+  height: 45px;
+  outline: none;
+  margin-bottom: 10px;
+  /*border-radius: 12px;
+  padding: 16px;*/
+  /*transition-duration: 0.5s;*/
+  /*width: 120px;*/
+}
+
+.group:hover {
+  /*background-color: none;*/
+  cursor: pointer;
+}
+
+#playButton {
+  position: absolute;
+  top: 155px;
+  left: 300px;
+  background-image:url(../resources/playFinal.png);
+  background-color: transparent;
+  border: none;
+  width: 90px;
+  height: 90px;
+  outline: none;
+}
+
+#exitButton{
+  /*
+  background-image:url(../resources/exitB1.png);
+  */
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  background-image: url(../resources/red.jpg);
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid red;
+  width: 55px;
+  height: 55px;
+  outline: none;
+}
+
+#playButton:hover, #exitButton:hover {
+  cursor: pointer;
+}
+
+/*
+#exitButton:hover {
+  /*background-color: red; *
+  cursor: pointer;
+}
+
+/*
+#playButton {
+
+  background-color: transparent;
+  background-image: url("../resources/playB.png");
+  border: none;
+  background-size: 200px, 200px;
+  /*
+  font-size: 20px
+  *
+  height: 200px;
+  width: 200px;
+
+
+  position: absolute;
+  top: 130px;
+  left: 240px;
+}
+
+#playButton:hover {
+  /*background-color: darkorange;*
+  opacity = 0.2;
+  cursor: pointer;
+}
+*/

@@ -2,9 +2,7 @@
 
 These projects were completed during my time at University (2017 to 2020).
 
-# Projects
-
-## Operating Systems
+## [Operating Systems](Operating-Systems/)
 
 ### Utilizes various low-level mechanisms:
 - `fork()`
@@ -29,7 +27,8 @@ Responsible for managing the drones, where each drone is a separate thread. This
 Uses the message queue to communicate with the drones. Writes stats to the shared memory, to be read by the simulation manager.
 <p>The various synchronization mechanisms are used throughout the project to manage access to the shared resources, i.e shared memory, message queue, drones, etc.</p>
 
-## Introduction to Networking
+
+## [Introduction to Networking](Networking-Introduction/)
 
 This project focuses on implementing networking functionalities using C sockets.
 <p>There is a client app and a server app. The server can handle multiple clients simultaneously</p>
@@ -38,4 +37,13 @@ This project focuses on implementing networking functionalities using C sockets.
 
 - <b>Client-Server Communication:</b> The client app interacts with the server application through established sockets, facilitating data exchange.
 - <b>Multithreaded Server:</b> Utilizes threads to handle concurrent requests, enhancing the server's efficiency in managing multiple incoming connections.
-- <b>Synchronization Mechanisms:</b> Implements mutexes and conditional variables to maintain synchronization and ensure data integrity in a multi-request environment
+- <b>Synchronization Mechanisms:</b> Implements mutexes and conditional variables to maintain synchronization and ensure data integrity in a multi-request environment.
+
+## [A Simple Game in JavaScript]()
+
+### How to Play
+
+1. <b>Launch the game:</b> Open the file html/index.html using Google Chrome (other browsers may not support all features).
+2. <b>Browser Flags:</b> Launch Chrome with the following flags
+    - ´--allow-file-access-from-files´
+    - ´--autoplay-policy=no-user-gesture-required´
